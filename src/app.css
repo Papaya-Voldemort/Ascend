@@ -1,0 +1,60 @@
+:root {
+  /* --- Color Palette --- */
+  /* Backgrounds */
+  --bg-main: #0B0C10;         /* Deep black/gray main background */
+  --bg-card: #15161E;         /* Slightly lighter gray for containers/cards */
+  --bg-card-hover: #1C1D27;   /* Hover state for interactive cards */
+  --bg-sidebar: #090A0E;      /* Darkest tone for the sidebar nav */
+
+  /* Accents & Brand Colors (Purples/Blues) */
+  --accent-primary: #6366F1;  /* Vibrant violet/indigo used for primary bars & highlights */
+  --accent-secondary: #4F46E5;/* Darker indigo for gradients/states */
+  --accent-glow: rgba(99, 102, 241, 0.15); /* Soft glow opacity */
+  --accent-success: #10B981;  /* Emerald green for completed states/streaks */
+  --accent-warning: #F59E0B;  /* Amber/Orange for the streak fire icon */
+
+  /* Text Colors */
+  --text-main: #F3F4F6;       /* Bright off-white for primary headers/titles */
+  --text-muted: #9CA3AF;      /* Medium gray for secondary text/labels */
+  --text-dim: #4B5563;        /* Darker gray for inactive grid elements/borders */
+  --text-link: #818CF8;       /* Lighter purple for links ("focusmode", "View all") */
+
+  /* --- Typography --- */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --fs-xs: 0.75rem;    /* 12px - Labels, streak counter */
+  --fs-sm: 0.875rem;   /* 14px - Sidebar links, mission descriptions */
+  --fs-base: 1rem;     /* 16px - Main body text, quotes */
+  --fs-lg: 1.125rem;   /* 18px - Mission titles */
+  --fs-xl: 1.25rem;    /* 20px - Card headers ("Today's Missions") */
+  --fs-2xl: 1.75rem;   /* 28px - Rank name ("Master I"), "Good evening" */
+  --fs-3xl: 2.5rem;    /* 40px - Massive stats ("1,420", "6h 24m") */
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* --- Layout & Spacing --- */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 0.75rem;  /* 12px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+
+  /* --- Borders & Radiuses --- */
+  --border-color: rgba(255, 255, 255, 0.05); /* Subtle borders separating sections */
+  --radius-sm: 6px;     /* Small buttons / tag highlights */
+  --radius-md: 12px;    /* Mission items, inner UI elements */
+  --radius-lg: 20px;    /* Main dashboard card containers */
+  
+  /* --- Effects --- */
+  --transition-fast: 0.2s ease;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+}
