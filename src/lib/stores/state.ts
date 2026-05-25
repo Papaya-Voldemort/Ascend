@@ -31,6 +31,7 @@ export interface Analytics {
   longestStreak: number;
   missionsCompleted: number;
   averageFocusSession: number;
+  currentRank: number;
 }
 
 // User Store
@@ -49,6 +50,7 @@ export const analytics = writable<Analytics>({
   longestStreak: 0,
   missionsCompleted: 0,
   averageFocusSession: 0,
+  currentRank: 1,
 });
 
 // UI State

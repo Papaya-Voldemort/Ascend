@@ -1,0 +1,3 @@
+- Add all ranks
+- Make ranks transparent background
+- change file type to webp or png or svg

@@ -13,19 +13,19 @@
 
 <style>
   .welcome h1 {
-    font-size: 1.75rem;
-    font-weight: 600;
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-semibold);
     margin: 0 0 8px 0;
-    color: #ffffff;
+    color: var(--text-main);
   }
 
   .highlight {
-    color: #7c3aed;
+    color: var(--accent-secondary);
   }
 
   .welcome p {
-    font-size: 0.95rem;
-    color: #6b7280;
+    font-size: var(--fs-sm);
+    color: var(--text-muted);
     margin: 0;
   }
 </style>

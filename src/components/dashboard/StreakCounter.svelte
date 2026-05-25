@@ -23,10 +23,10 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    background-color: #161722;
-    border: 1px solid #23263b;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
     padding: 8px 16px;
-    border-radius: 12px;
+    border-radius: var(--radius-md);
   }
 
   .stats {
@@ -36,16 +36,16 @@
   }
 
   .number {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--text-main);
     line-height: 1;
   }
 
   .label {
-    font-size: 0.65rem;
-    font-weight: 700;
-    color: #6b7280;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    color: var(--text-muted);
     letter-spacing: 0.05em;
   }
 </style>
